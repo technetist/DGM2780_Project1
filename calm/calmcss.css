@@ -1,0 +1,76 @@
+.jumbotron {
+	text-align: center;
+	margin-bottom: 0;
+	margin-right: -20px;
+	background: #e1ffff;
+	/*Background gradient*/
+	background: -moz-linear-gradient(top, #e1ffff 0%, #fdffff 0%, #e1ffff 7%, #e6f8fd 30%, #c8eefb 54%, #bee4f8 75%, #b1d8f5 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#e1ffff), color-stop(0%,#fdffff), color-stop(7%,#e1ffff), color-stop(30%,#e6f8fd), color-stop(54%,#c8eefb), color-stop(75%,#bee4f8), color-stop(100%,#b1d8f5));
+	background: -webkit-linear-gradient(top, #e1ffff 0%,#fdffff 0%,#e1ffff 7%,#e6f8fd 30%,#c8eefb 54%,#bee4f8 75%,#b1d8f5 100%);
+	background: -o-linear-gradient(top, #e1ffff 0%,#fdffff 0%,#e1ffff 7%,#e6f8fd 30%,#c8eefb 54%,#bee4f8 75%,#b1d8f5 100%);
+	background: -ms-linear-gradient(top, #e1ffff 0%,#fdffff 0%,#e1ffff 7%,#e6f8fd 30%,#c8eefb 54%,#bee4f8 75%,#b1d8f5 100%);
+	background: linear-gradient(to bottom, #e1ffff 0%,#fdffff 0%,#e1ffff 7%,#e6f8fd 30%,#c8eefb 54%,#bee4f8 75%,#b1d8f5 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e1ffff', endColorstr='#b1d8f5',GradientType=0 );;
+
+}
+
+
+.jumbotron img {
+	width: 150px;
+}
+
+.navbar {
+	background-color: #ADD8E6;
+	border: none;
+	margin-right: -20px;
+	z-index: 1000;
+}
+
+.affix {
+    position: fixed;
+    top: 0;
+    width:100%;
+}
+
+.container{
+    margin-bottom: 20px;
+}
+
+.col-md-3 h1{
+	text-align: center;
+}
+
+.text{
+	background-color: #FFEFD5;
+	border-radius: 25px;
+	padding: 10px;
+	margin: 10px;
+}
+
+.info {
+
+}
+
+.equalSize {
+    overflow: hidden;
+    background-color: #F0FFFF;
+	padding: 8px;
+	margin: 10px;
+    border-radius: 25px;
+}
+
+.thumbs{
+	background-color: #F0FFFF;
+	border-radius: 0px;
+	padding: 30px;
+        width: 100%;
+        margin-right: -20px;
+}
+
+.footer {
+	height: 120px;
+	padding: 25px 100px;
+	background: #F0F8FF;
+	text-align: right;
+	margin-right: -20px;
+}
